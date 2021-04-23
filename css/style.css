@@ -1,0 +1,14 @@
+.main {
+  height: 512px;
+  background-image: url(https://static.billboard.com/files/media/travis-scott-astroworld-2019-cr-Julian-Bajsel-billboard-1548-compressed.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.second {
+  height: 1500px;
+}
+
+.third {
+  height: 300px;
+}
