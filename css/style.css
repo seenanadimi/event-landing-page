@@ -1,0 +1,57 @@
+
+.main {
+  /* height: 512px; */
+  background-image: url(https://static.billboard.com/files/media/travis-scott-astroworld-2019-cr-Julian-Bajsel-billboard-1548-compressed.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 0;
+  margin: 0;
+}
+
+/* .second {
+  height: 1500px;
+}
+
+.third {
+  height: 300px;
+}
+
+.fourth {
+  height: 300px;
+} */
+
+div.banner {
+  padding-bottom: 180px;
+}
+
+/* .secondary_text {
+  margin: 0 100px 0 100px;
+} */
+
+@media (max-width: 768px) {
+  .img_size {
+    width: 250px !important;
+    justify-self: center;
+  }
+  
+  
+}
+
+@media (max-width: 1000px) {
+  .venue_sizing {
+    justify-content: space-around !important;
+  }
+}
+
+/* @media (max-width: 420px) {
+  .globe_img {
+    height: 100px;
+  }
+} */
+
+.venue_sizing {
+  margin: 0;
+  padding: 0;
+}
+
+
