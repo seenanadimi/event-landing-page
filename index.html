@@ -5,6 +5,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -14,7 +26,7 @@
         ><img
           style="max-width: 50px"
           src="https://cdn.shopify.com/s/files/1/0072/5123/0790/files/Globe-New.gif?height=628&pad_color=fff&v=1540875801&width=1200"
-          alt=""
+          alt="..."
       /></a>
       <button
         class="navbar-toggler"
@@ -31,83 +43,158 @@
         class="collapse navbar-collapse justify-content-end"
         id="navbarNavAltMarkup"
       >
-        <div class="navbar-nav">
-          <a class="navbar-brand font-weight-bold" href="#">Jackboys</a>
+        <div
+          class="navbar-nav"
+          style="font-family: 'Gloria Hallelujah', cursive"
+        >
+          <a class="navbar-brand font-weight-bold" href="#">Set List</a>
           <a class="navbar-brand font-weight-bold" href="#">Tickets</a>
           <a class="navbar-brand font-weight-bold" href="#">Venue</a>
         </div>
       </div>
     </nav>
 
-    <header class="main container-fluid bg-light pt-5">
-      <div class="container text-center pt-5">
-        <p class="h2 mb-4">Clear Statement about Your Event</p>
-        <p class="lead mb-4">
-          Secondary header providing additional information
-        </p>
-        <button type="button" class="btn btn-danger">ENTER</button>
+    <header class="main jumbotron bg-light">
+      <div
+        class="jumbotron-fluid text-center banner pt-5"
+        style="font-family: 'Gloria Hallelujah', cursive"
+      >
+        <p class="h1 mb-4">ASTROWORLD</p>
+        <p class="lead mb-4">Wish You Were Here Tour</p>
+        <button type="button" class="btn btn-danger mb-5">ENTER</button>
       </div>
     </header>
 
-    <main class="second container-fluid bg-light">
-      <div class="container">
-        <p class="text-center h3 pt-5">JackBoys</p>
-        <p class="text-center lead">
-          Write a few lines about the event speakers to highlights their
-          expertise in the field.
+    <div>
+      <section id="setlist">
+        <h2
+          class="h1 text-center mt-5"
+          style="font-family: 'Gloria Hallelujah', cursive"
+        >
+          Set List
+        </h2>
+        <p class="text-center lead secondary_text">
+          Travis Scott, Don Toliver, Sheck Wes and many others!
         </p>
-      </div>
-      <div class="container text-center border-bottom">
-        <img
-          class="mt-3 img-thumbnail"
-          src="https://i1.sndcdn.com/avatars-000701366305-hu9f0i-t500x500.jpg"
-          alt="..."
-        />
-        <div class="lead font-weight-bold pt-3">Travis Scott</div>
-        <div class="lead pb-3">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-          dolor placeat natus.
+        <div>
+          <div class="row d-flex justify-content-around mb-5 border-bottom">
+            <div
+              class="col-md-3 col-sm-12 d-flex flex-column mx-1 my-4 my-md-4 align-items-center"
+            >
+              <img
+                class="img-fluid rounded-lg img_size"
+                src="https://i1.sndcdn.com/avatars-000701366305-hu9f0i-t500x500.jpg"
+                alt="..."
+              />
+              <p
+                class="h5 font-weight-bolder mt-4"
+                style="font-family: 'Gloria Hallelujah', cursive"
+              >
+                Travis Scott
+              </p>
+              <p class="lead">Lorem.</p>
+              <p class="font-weight-bold">username</p>
+            </div>
+            <div
+              class="col-md-3 col-sm-12 d-flex flex-column mx-1 my-4 my-md-4 align-items-center"
+            >
+              <img
+                class="img-fluid rounded-lg img_size"
+                src="https://pbs.twimg.com/profile_images/1238478922490101763/59PqMbjb.jpg"
+                alt="..."
+              />
+              <p
+                class="h5 font-weight-bolder mt-4"
+                style="font-family: 'Gloria Hallelujah', cursive"
+              >
+                Don Toliver
+              </p>
+              <p class="lead">Lorem ipsum dolor sit amet.</p>
+              <p class="font-weight-bold">username</p>
+            </div>
+            <div
+              class="col-md-3 col-sm-12 d-flex flex-column mx-1 my-4 my-md-4 align-items-center"
+            >
+              <img
+                class="img-fluid rounded-lg img_size"
+                src="https://cdns-images.dzcdn.net/images/artist/4ebbef0713f3076caf529812cb1b464f/500x500.jpg"
+                alt="..."
+              />
+              <p
+                class="h5 font-weight-bolder mt-4"
+                style="font-family: 'Gloria Hallelujah', cursive"
+              >
+                Sheck Wes
+              </p>
+              <p class="lead">Lorem ipsum dolor sit amet.</p>
+              <p class="font-weight-bold">username</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="container text-center border-bottom">
-        <img
-          class="mt-3 img-thumbnail"
-          src="https://pbs.twimg.com/profile_images/1238478922490101763/59PqMbjb.jpg"
-          alt="..."
-        />
-        <div class="lead font-weight-bold">Don Toliver</div>
-        <div class="lead pb-3">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-          consectetur eius veritatis!
-        </div>
-      </div>
-      <div class="container text-center border-bottom">
-        <img
-          class="mt-3 img-thumbnail"
-          src="https://cdns-images.dzcdn.net/images/artist/4ebbef0713f3076caf529812cb1b464f/500x500.jpg"
-          alt="..."
-        />
-        <div class="lead font-weight-bold">Sheck Wes</div>
-        <div class="lead pb-3">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat
-          alias odit corporis.
-        </div>
-      </div>
-    </main>
+      </section>
+    </div>
 
-    <main class="third container-fluid bg-light pt-2">
-      <div class="container text-center border-bottom pb-5">
-        <p class="h2 mb-4">Get Your Ticket Today!</p>
+    <main class="third container-fluid border-bottom pt-5">
+      <div class="container text-center pb-5">
+        <p class="h2 mb-4" style="font-family: 'Gloria Hallelujah', cursive">
+          Get Your Ticket Today!
+        </p>
         <p class="lead mb-4">
           Secondary header providing additional information
         </p>
-        <button type="button" class="btn btn-danger">BUY TICKET $149</button>
+        <button type="button" class="btn btn-danger mb-5">
+          BUY TICKET $149
+        </button>
       </div>
     </main>
 
-    <main class="fourth container-fluid bg-light pt-2">
-      <div class="container"></div>
-    </main>
+    <div>
+      <div class="container-fluid row justify-content-center venue_sizing">
+        <div
+          class="col-md-4 col-sm-12 d-flex flex-column mt-5 mb-5 venue align-items-center"
+        >
+          <p class="h3" style="font-family: 'Gloria Hallelujah', cursive">
+            The Venue
+          </p>
+          <p class="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae.
+          </p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d443286.7756290634!2d-95.67404507317772!3d29.77249603948623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640b8b4488d8501%3A0xca0d02def365053b!2sHouston%2C%20TX!5e0!3m2!1sen!2sus!4v1619217373384!5m2!1sen!2sus"
+            width="300"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+        <div
+          class="col-md-4 col-sm-12 d-flex align-items-end justify-content-center mb-3"
+        >
+          <a href="#"
+            ><img
+              class="globe_img"
+              style="width: 350px"
+              src="https://cdn.shopify.com/s/files/1/0072/5123/0790/files/Globe-New.gif?height=628&pad_color=fff&v=1540875801&width=1200"
+              alt="..."
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container-fluid border-top">
+      <div class="container text-center">
+        <a href="https://www.instagram.com/"
+          ><i style="color: black" class="fab fa-instagram fa-3x mb-4 mt-4"></i
+        ></a>
+        <a href="https://twitter.com/home"
+          ><i style="color: black" class="fab fa-twitter fa-3x mt-3"></i
+        ></a>
+        <a href="https://www.facebook.com/"
+          ><i style="color: black" class="fab fa-facebook-square fa-3x"></i
+        ></a>
+      </div>
+    </footer>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
